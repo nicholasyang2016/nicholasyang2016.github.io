@@ -9,7 +9,7 @@ let gridStep = 20;
 
 function setup (){
 
-  createCanvas(500,500);
+  createCanvas(800,800);
   rectMode(CENTER);
   noLoop();
   background(255);
@@ -53,7 +53,7 @@ function grid(){
         let newSizeStroke = int (random(20));
         //strokeWeight = (newSizeStroke/5);
         fill(stepX*0.1,stepY*0.5, 0);
-        ellipse (x, y, newSizeStroke, newSizeStroke);
+        //ellipse (x, y, newSizeStroke, newSizeStroke);
 
         //let makeRed = map(0, width, 0, 255);
 
