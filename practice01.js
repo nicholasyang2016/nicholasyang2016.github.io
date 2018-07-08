@@ -103,9 +103,9 @@ function circleBlocks(xTimes, yTimes){
       stroke(colorCircle);
       strokeWeight(3);
       rect(0, 0, 15, 15); //position is driven by translate()
-      noStroke();
-      fill(colorCircle);
-      rect(0, 0, 15, 15);
+      //noStroke();
+      //fill(colorCircle);
+      //ellipse(0, 0, 15, 15);
       pop();
     }
   }
