@@ -21,7 +21,7 @@ function draw (){
   background(100);
 
   fill(0,255, ctrlX);
-  ellipse(ctrlX, 25, ctrlShape, 25);
+  ellipse(ctrlX, ctrlY, ctrlShape, 25);
 
   ctrlX = ctrlX+2;
   ctrlY = ctrlY+1;
